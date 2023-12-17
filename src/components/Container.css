@@ -1,0 +1,95 @@
+.main {
+    width: 900px;
+    background-color: rgb(0, 15, 36);
+    height: 600px;
+    border-radius: 30px;
+}
+
+.header {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header_name {
+    margin-left: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 19px;
+}
+
+.Social_icones {
+    margin-right: 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+}
+
+.Social_icones i {
+    font-size: 23px;
+    color: white;
+    border: 1px solid white;
+    padding: 15px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.section {
+
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 650px;
+    height: 440px;
+    margin: 50px auto;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+
+
+}
+
+.section p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transform: translateY(3rem);
+    text-align: center;
+    font-size: 15px;
+}
+
+.section .all_magic input {
+
+    width: 300px;
+    text-align: center;
+    transform: translateX(3rem);
+}
+
+.section .all_magic button {
+    transform: translateX(-4rem);
+}
+
+.section .all_magic {
+    display: flex;
+    margin-top: 120px;
+    justify-content: center;
+    justify-content: space-around; 
+    width: 100%;  
+}
+.all_previsions{
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+.all_previsions h2{
+    color: white;
+   transform: translateY(1rem);
+   font-size: 17px;
+}
+.all_previsions p{
+    transform: translateY(-1.1rem);
+    font-size: 28px;
+    color: rgb(216, 210, 210);
+    padding: 4px;
+}
